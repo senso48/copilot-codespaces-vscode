@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Delivery Senso 48</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8f8f8;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .container {
+      width: 90%;
+      max-width: 900px;
+      margin: 20px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #ccc;
+    }
+    .resto {
+      border-bottom: 1px solid #ddd;
+      padding: 15px 0;
+    }
+    .resto:last-child {
+      border-bottom: none;
+    }
+    .resto h3 {
+      margin: 0 0 10px;
+      color: #4CAF50;
+    }
+    .resto p {
+      margin: 5px 0;
+    }
+    .price {
+      font-weight: bold;
+      color: #e91e63;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Delivery Senso 48
+  </header>
+
+  <div class="container">
+    <h2>قائمة المطاعم</h2>
+
+    <div class="resto">
+      <h3>مطعم البيتزا</h3>
+      <p>البيتزا مارجريتا - <span class="price">10 د.ت</span></p>
+      <p>بيتزا ببروني - <span class="price">12 د.ت</span></p>
+    </div>
+
+    <div class="resto">
+      <h3>مطعم الكباب</h3>
+      <p>شاورما دجاج - <span class="price">8 د.ت</span></p>
+      <p>كباب لحم - <span class="price">10 د.ت</span></p>
+    </div>
+
+    <div class="resto">
+      <h3>مطعم الوجبات السريعة</h3>
+      <p>برجر دجاج - <span class="price">9 د.ت</span></p>
+      <p>بطاطا مقلية - <span class="price">4 د.ت</span></p>
+    </div>
+  </div>
+</body>
+</html>
